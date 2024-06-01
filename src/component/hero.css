@@ -1,0 +1,82 @@
+.hero {
+  display: flex;
+  max-width: 980px;
+  margin: 50px auto;
+}
+
+.writeup {
+  width: 450px;
+}
+
+.form-section {
+  margin-top: 50px;
+  width: 450px;
+  margin-left: 50px;
+}
+.form-group {
+  margin-top: 20px;
+}
+.signup-form {
+  max-width: 450px;
+  box-sizing: border-box;
+}
+.form-group input {
+  width: 100%;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+form-group select {
+  width: 100%;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.submitButton {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* media query */
+@media (max-width: 480px) {
+  .hero {
+    display: grid;
+    max-width: 380px;
+    margin: 3px;
+  }
+
+  .writeup {
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .form-section {
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  .form-group {
+    margin-top: 10px;
+  }
+  .signup-form {
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  .form-group input {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+
+  form-group select {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+}
