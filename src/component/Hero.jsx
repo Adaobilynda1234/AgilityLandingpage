@@ -3,6 +3,7 @@ import image from "../assets/coding.jpg";
 import "./hero.css";
 
 const Hero = () => {
+  // state for form
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -10,6 +11,7 @@ const Hero = () => {
     referral: "",
   });
 
+  // handle each input element
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));

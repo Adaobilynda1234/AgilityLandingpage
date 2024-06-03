@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-// import Logo from "../assets/education.jpg";
 import "./navbar.css";
-// import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   // useState for navigation toggle

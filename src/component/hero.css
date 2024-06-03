@@ -2,6 +2,7 @@
   display: flex;
   max-width: 980px;
   margin: 50px auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .writeup {
@@ -27,11 +28,11 @@
   border-radius: 5px;
 }
 
-form-group select {
+.form-group select {
   width: 100%;
   margin-bottom: 0.75em;
   padding: 0.5em;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .submitButton {
   padding: 10px 20px;
@@ -73,7 +74,7 @@ form-group select {
     border-radius: 5px;
   }
 
-  form-group select {
+  .form-group select {
     width: 100%;
     margin-bottom: 0.75em;
     padding: 0.5em;
