@@ -81,3 +81,118 @@
     border-radius: 5px;
   }
 }
+
+@media (max-width: 640px) {
+  .hero {
+    display: grid;
+    max-width: 500px;
+    margin: 3px;
+  }
+
+  .writeup {
+    width: 200px;
+    margin: auto;
+  }
+
+  .form-section {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 50px;
+  }
+  .form-group {
+    margin-top: 10px;
+  }
+  .signup-form {
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  .form-group input {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+
+  .form-group select {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    max-width: 600px;
+    margin: 3px;
+  }
+
+  .writeup {
+    width: 300px;
+    margin-left: 20px;
+  }
+
+  .form-section {
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 20px;
+  }
+  .form-group {
+    margin-top: 10px;
+  }
+  .signup-form {
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  .form-group input {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+
+  .form-group select {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 912px) {
+  .hero {
+    max-width: 700px;
+    margin: 3px;
+  }
+
+  .writeup {
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  .form-section {
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .form-group {
+    margin-top: 10px;
+  }
+  .signup-form {
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  .form-group input {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+
+  .form-group select {
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+}

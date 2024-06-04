@@ -30,7 +30,7 @@ const Hero = () => {
         <img src={image} alt="" />
         <p>
           Africa Agility is a non-profit SOCIAL IMPACT Organization. We are
-          SUPPORTING the expansion of Africa’s digital economy, by creating a
+          SUPPORTING the expansion of Africa's digital economy, by creating a
           more diversified tech and Agile workplace and ADVOCATING for those
           that have been marginalized through stereotyping.
         </p>
